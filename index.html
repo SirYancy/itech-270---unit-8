@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MadLib</title>
+    <script src="madlib.js"></script>
+</head>
+<body>
+    <h1>The Story of the Mad Hatter</h1>
+    <form onsubmit="return madLib()">
+        <label for="nameBox">A Person's Name:</label>
+        <input type="text" id="nameBox" value=""><br>
+        <label for="colorBox">A Color:</label>
+        <input type="text" id="colorBox" value=""><br>
+        <label for="animalBox">An Animal:</label>
+        <input type="text" id="animalBox" value=""><br>
+        <label for="activityBox">A summertime activity</label>
+        <input type="text" id="activityBox" value=""><br>
+        <label for="adjectiveBox">An adjective</label>
+        <input type="text" id="adjectiveBox" value=""><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <div id="story"></div>
+</body>
+</html>
