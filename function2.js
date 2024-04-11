@@ -1,5 +1,5 @@
 function addTwo() {
-    event.preventDefault();
+    // event.preventDefault();
     var a, b;
 
     a = Number(document.getElementById("num1").value);
